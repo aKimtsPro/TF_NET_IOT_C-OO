@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exo_Banque_05_Indexeurs", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_SurchargeOperateurs", "06_SurchargeOperateurs\06_SurchargeOperateurs.csproj", "{15EA254F-8F74-4184-969B-A97D2F5AE4B1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exo_Banque_06_SurchargeOperateur", "Exo_Banque_06_SurchargeOperateur\Exo_Banque_06_SurchargeOperateur.csproj", "{70BF8C2A-5FD7-4146-AD96-FD43C826D494}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +79,10 @@ Global
 		{15EA254F-8F74-4184-969B-A97D2F5AE4B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15EA254F-8F74-4184-969B-A97D2F5AE4B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15EA254F-8F74-4184-969B-A97D2F5AE4B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70BF8C2A-5FD7-4146-AD96-FD43C826D494}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70BF8C2A-5FD7-4146-AD96-FD43C826D494}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70BF8C2A-5FD7-4146-AD96-FD43C826D494}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70BF8C2A-5FD7-4146-AD96-FD43C826D494}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
