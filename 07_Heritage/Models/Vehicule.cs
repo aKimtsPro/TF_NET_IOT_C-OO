@@ -12,14 +12,28 @@ namespace _07_Heritage.Models
         public int Puissance { get; set; }
         public string Couleur { get; set; }
         public int KmParcourus { get; private set; }
-        
-        public void Rouler(int km)
+        public double Reservoir { get; protected set; }
+        public double Consommation { get; set; }
+
+        public virtual void Rouler(int km)
         {
             if (km > 0)
+            {
                 this.KmParcourus += km;
+                this.Reservoir -= km * (Consommation / 100);
+            }
         }
 
-        public override string ToString()
+        public  double FairePlein()
+        {
+            // On part du part du principe que le reservoir a max 20L
+            double ajout = 20 - this.Reservoir;
+            this.Reservoir = 20;
+            return ajout;
+        } 
+
+        // sealed vient bloquer les overrides chez les enfants suivants.
+        public /*sealed*/ override string ToString()
         {
             return $"Vehicule{{Puissance: {Puissance}; Couleur: {Couleur}; KmParcourus: {KmParcourus}}}";
         }

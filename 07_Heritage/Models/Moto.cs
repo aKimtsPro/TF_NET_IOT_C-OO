@@ -14,5 +14,10 @@ namespace _07_Heritage.Models
         {
             return $"Moto{{Puissance: {Puissance}; Couleur: {Couleur}; KmParcourus: {KmParcourus}, NbrRoues: {NbrRoues}}}";
         }
+
+        public override void Rouler(int km)
+        {
+            base.Rouler(5*km);
+        }
     }
 }
