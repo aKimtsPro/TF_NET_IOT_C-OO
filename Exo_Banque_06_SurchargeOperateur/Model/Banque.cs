@@ -41,7 +41,7 @@ namespace Exo_Banque_05_Indexeurs.Model
 
             foreach( Courant compte in _comptes.Values )
             {
-                if( compte.Titulaire.Equals(titulaire) )
+                if( compte.Titulaire == titulaire )
                 {
                     rslt += compte;
                 }
