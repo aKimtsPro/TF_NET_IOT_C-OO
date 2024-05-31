@@ -41,6 +41,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_Heritage", "07_Heritage\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exo_Banque_07_Heritage", "Exo_Banque_07_Heritage\Exo_Banque_07_Heritage.csproj", "{AD9AA401-548E-4AC1-8F9A-60391E6A6774}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exo_Banque_08_ClasseAbstraite", "Exo_08_ClasseAbstraite\Exo_Banque_08_ClasseAbstraite.csproj", "{6D6F0179-555A-4CD0-BFA3-4E5149D77F4F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -95,6 +97,10 @@ Global
 		{AD9AA401-548E-4AC1-8F9A-60391E6A6774}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD9AA401-548E-4AC1-8F9A-60391E6A6774}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD9AA401-548E-4AC1-8F9A-60391E6A6774}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D6F0179-555A-4CD0-BFA3-4E5149D77F4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D6F0179-555A-4CD0-BFA3-4E5149D77F4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D6F0179-555A-4CD0-BFA3-4E5149D77F4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D6F0179-555A-4CD0-BFA3-4E5149D77F4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
