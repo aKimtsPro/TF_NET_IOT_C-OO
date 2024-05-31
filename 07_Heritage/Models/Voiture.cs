@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _07_Heritage.Models
 {
-    internal sealed class Voiture : Vehicule
+    internal sealed class Voiture : Vehicule, IRouler
     {
         public int NbrPortes { get; set; }
 
@@ -22,6 +22,16 @@ namespace _07_Heritage.Models
             double ajout = 40 - Reservoir;
             Reservoir = 40;
             return ajout;
+        }
+
+        public override void Klaxonner()
+        {
+            throw new NotImplementedException();
+        }
+
+        internal static new string GetFormatMatricule()
+        {
+            return "*___***";
         }
 
     }

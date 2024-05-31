@@ -57,5 +57,10 @@ namespace _07_Heritage.Models
         {
             return $"Vehicule{{Puissance: {Puissance}; Couleur: {Couleur}; KmParcourus: {KmParcourus}}}";
         }
+
+        protected static string GetFormatMatricule()
+        {
+            return "_*_";
+        }
     }
 }

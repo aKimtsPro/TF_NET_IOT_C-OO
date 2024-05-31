@@ -6,9 +6,22 @@ using System.Threading.Tasks;
 
 namespace _07_Heritage.Models
 {
-    internal class Bateau : Vehicule
+    internal class Bateau : Vehicule, INaviguer
     {
-
+        public override void Klaxonner()
+        {
+            throw new NotImplementedException();
+        }
         public int Taille { get; set; }
+
+        public void Naviguer()
+        {
+            Console.WriteLine("plouf plouf");
+        }
+
+        public override string ToString()
+        {
+            return "C'est un bateau";
+        }
     }
 }
