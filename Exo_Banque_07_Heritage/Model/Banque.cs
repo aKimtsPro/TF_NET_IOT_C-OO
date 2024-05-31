@@ -10,10 +10,9 @@ namespace Exo_Banque_07_Heritage.Model
     internal class Banque
     {
         public string Nom { get; set; }
-        private readonly Dictionary<string, Courant> _comptes = new Dictionary<string, Courant>();
+        private readonly Dictionary<string, Compte> _comptes = new Dictionary<string, Compte>();
 
-        
-        public Courant this[string key]
+        public Compte this[string key]
         {
             get
             {
@@ -21,13 +20,14 @@ namespace Exo_Banque_07_Heritage.Model
             }
         }
 
-        public void Ajouter(Courant courant)
+        public void Ajouter(Compte compte)
         {
-            if( !_comptes.ContainsKey(courant.Numero) )
+            if( !_comptes.ContainsKey(compte.Numero) )
             {
-                _comptes.Add(courant.Numero, courant);
+                _comptes.Add(compte.Numero, compte);
             }
         }
+
 
         public void Supprimer(string numero)
         {
@@ -39,11 +39,11 @@ namespace Exo_Banque_07_Heritage.Model
         {
             double rslt = 0;
 
-            foreach( Courant compte in _comptes.Values )
+            foreach( Compte compte in _comptes.Values )
             {
                 if( compte.Titulaire == titulaire )
                 {
-                    rslt += compte;
+                    rslt = rslt + compte;
                 }
             }
 

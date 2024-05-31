@@ -23,5 +23,20 @@ namespace Exo_Banque_07_Heritage.Model
             if (montant > 0)
                 this.Solde -= montant;
         }
+
+        public static double operator + (Compte c1, Compte c2)
+        {
+            double s1 = c1.Solde < 0 ? 0 : c1.Solde;
+            double s2 = c2.Solde < 0 ? 0 : c2.Solde;
+
+            return s1 + s2;
+        }
+
+        public static double operator + (double solde, Compte c2)
+        {
+            double s2 = c2.Solde < 0 ? 0 : c2.Solde;
+
+            return solde + s2;
+        }
     }
 }

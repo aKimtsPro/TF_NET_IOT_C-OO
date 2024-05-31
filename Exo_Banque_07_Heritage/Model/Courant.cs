@@ -23,20 +23,5 @@ namespace Exo_Banque_07_Heritage.Model
 
             base.Retrait(Montant);
         }
-
-
-        public static double operator +( Courant c1, Courant c2 )
-        {
-            double s1 = c1.Solde < 0 ? 0 : c1.Solde;
-            double s2 = c2.Solde < 0 ? 0 : c2.Solde;
-
-            return s1 + s2;
-        }
-        public static double operator +(double solde, Courant c2)
-        {
-            double s2 = c2.Solde < 0 ? 0 : c2.Solde;
-
-            return solde + s2;
-        }
     }
 }
