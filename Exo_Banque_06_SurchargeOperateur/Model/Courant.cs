@@ -55,10 +55,10 @@ namespace Exo_Banque_06_Proprietes.Model
         }
 
 
-        public static double operator +( Courant c1, Courant c2 )
+        public static double operator + ( Courant c1, Courant c2 )
         {
-            double s1 = c1._Solde < 0 ? 0 : c1._Solde;
-            double s2 = c2._Solde < 0 ? 0 : c2._Solde;
+            double s1 = c1.Solde < 0 ? 0 : c1._Solde;
+            double s2 = c2.Solde < 0 ? 0 : c2._Solde;
 
             return s1 + s2;
         }
