@@ -45,19 +45,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exo_Banque_08_ClasseAbstrai
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06_Interfaces", "06_Interfaces", "{3CE0CA72-C6F5-4BE0-85EE-A26B47590FBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_Interface", "Demo_Interface\Demo_Interface.csproj", "{0EA20A68-219C-48E7-9692-C3D83C59021D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo_Interface", "Demo_Interface\Demo_Interface.csproj", "{0EA20A68-219C-48E7-9692-C3D83C59021D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exo_Banque_09_Interface", "Exo_Banque_09_Interface\Exo_Banque_09_Interface.csproj", "{1C12EF65-11CC-4ADC-BF57-249789E4E7DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exo_Banque_09_Interface", "Exo_Banque_09_Interface\Exo_Banque_09_Interface.csproj", "{1C12EF65-11CC-4ADC-BF57-249789E4E7DF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07_Constructeurs", "07_Constructeurs", "{DBF5C635-3283-4BFC-819C-9D7157361387}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_Constructeurs", "Demo_Constructeurs\Demo_Constructeurs.csproj", "{35CBCEFA-741D-4318-B371-C1BB5AA23998}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo_Constructeurs", "Demo_Constructeurs\Demo_Constructeurs.csproj", "{35CBCEFA-741D-4318-B371-C1BB5AA23998}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exo_Banque_10_Constructeur", "Exo_Banque_10_Constructeur\Exo_Banque_10_Constructeur.csproj", "{1CDAA9A2-CC8D-429D-8432-E8E97DD7683A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exo_Banque_10_Constructeur", "Exo_Banque_10_Constructeur\Exo_Banque_10_Constructeur.csproj", "{1CDAA9A2-CC8D-429D-8432-E8E97DD7683A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08_Exceptions", "08_Exceptions", "{25A0959A-0259-44C3-B682-E03BD3AE0FD9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_Exceptions", "Demo_Exceptions\Demo_Exceptions.csproj", "{ACEF0C65-AE63-4008-AA96-4A8F6FB25E87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo_Exceptions", "Demo_Exceptions\Demo_Exceptions.csproj", "{ACEF0C65-AE63-4008-AA96-4A8F6FB25E87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exo_Banque_11_Exceptions", "Exo_Banque_11_Exceptions\Exo_Banque_11_Exceptions.csproj", "{E08EED4C-64EE-4777-A18B-B93465013E03}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -137,6 +139,10 @@ Global
 		{ACEF0C65-AE63-4008-AA96-4A8F6FB25E87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACEF0C65-AE63-4008-AA96-4A8F6FB25E87}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACEF0C65-AE63-4008-AA96-4A8F6FB25E87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E08EED4C-64EE-4777-A18B-B93465013E03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E08EED4C-64EE-4777-A18B-B93465013E03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E08EED4C-64EE-4777-A18B-B93465013E03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E08EED4C-64EE-4777-A18B-B93465013E03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
