@@ -1,0 +1,18 @@
+﻿using Exo_Banque_10_Constructeur.Model;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Exo_Banque_10_Constructeur.Interface
+{
+    internal interface IBanker : ICustomer
+    {
+        Personne Titulaire { get; }
+        string Numero {  get; }
+        void AppliquerInteret();
+
+
+    }
+}
